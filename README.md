@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [BTC Relay](http://btcrelay.org)
 
 [![Join the chat at https://gitter.im/ethereum/btcrelay](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/btcrelay)
@@ -285,3 +286,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
+=======
+### BTC Relay website
+
+Source for BTC Relay website on the `gh-pages` branch or at [btcrelay.org](http://btcrelay.org)
+
+#### Build
+
+Install [node](https://docs.npmjs.com/getting-started/installing-node) if you don't already have it.
+
+```
+npm install
+gulp clean && gulp
+```
+
+
+>>>>>>> 359f0599ce6b4e439118d9e05b2adb473c111f5e

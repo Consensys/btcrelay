@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 test/.cache
+=======
+node_modules
+dist/
+
+>>>>>>> 359f0599ce6b4e439118d9e05b2adb473c111f5e
