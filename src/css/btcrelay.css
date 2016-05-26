@@ -218,7 +218,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 /* Nav
 ---------------------------------------------------------------------------- */
-
 .nav>li>a {
 	margin-top: 25px;
 	text-transform: uppercase;
@@ -226,7 +225,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	color: #444;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover {
 	color: #444;
 	font-weight: 800;
 	background-color: transparent;
@@ -242,6 +243,19 @@ only screen and (min-device-pixel-ratio: 1.5) {
   min-height: 50px;
   overflow: auto;
 }
+.nav-tabs>li.tabinfo a{
+  background-color: #00aaff;
+  color: #fff;
+}
+.subnav{
+	margin: 0 -15px;
+  background-color: #005580;
+  color: #fff;
+}
+p.nav-direction{
+	color: #005580;
+}
+
 /* Headings
 ---------------------------------------------------------------------------- */
 
