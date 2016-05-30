@@ -27854,6 +27854,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .nav>li>a:hover {
 	font-weight: 800;
 	color: #069;
+
 }
 
 .dropdown-menu {
@@ -27862,16 +27863,26 @@ only screen and (min-device-pixel-ratio: 1.5) {
   overflow: auto;
 }
 .nav-tabs>li.tabinfo a{
-  background-color: #00aaff;
-  color: #fff;
+  background-color: #fff;
+  color: #0af;
 }
 .subnav{
-	margin: 0 -15px;
+   margin: -2px 0px 0 -15px;
   background-color: #005580;
-  color: #fff;
+  border-radius: 4px;
 }
+.subnav>li.active{
+	background-color: #00aaff;
+}
+.subnav>li>a, 
+.subnav>li.active>a,
+.subnav>li.active>a:hover {
+	color: #fff;
+}
+
 p.nav-direction{
 	color: #005580;
+	text-align: left;
 }
 
 /* Headings
@@ -28228,7 +28239,8 @@ textarea.border-form-control {
 }
 
 #nettabs li.tabinfo.active a {
-	color: #069;
+	color: #fff;
+	background-color: #0af;
 }
 
 .tab-header {
