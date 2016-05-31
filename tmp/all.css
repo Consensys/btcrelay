@@ -27814,8 +27814,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 #content .notice {
-	background-color: #444;
-	color: #efefef;
+	background-color: #e6e6e6;
+	color: #444;
 	border-radius: 3px;
 	padding: 15px 15px 15px 25px;
 	margin-bottom: 20px;
@@ -27823,7 +27823,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 #content .notice > h4 {
 	margin-bottom: 10px;
-	color: #efefef;
+	color: #444;      /* previous color #efefef */
 }
 
 #content .notice a {
@@ -27840,7 +27840,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	margin-top: 25px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #444;
+	/*color: #444;*/
 }
 
 .nav-pills>li.active>a, 
@@ -27863,21 +27863,24 @@ only screen and (min-device-pixel-ratio: 1.5) {
   overflow: auto;
 }
 .nav-tabs>li.tabinfo a{
-  background-color: #fff;
-  color: #0af;
+  background-color: #f2f2f2;
+  color: #0086b3;      /* #069 */
 }
 .subnav{
    margin: -2px 0px 0 -15px;
-  background-color: #005580;
+  background-color:#006080;   /*#005580*/
   border-radius: 4px;
 }
 .subnav>li.active{
-	background-color: #00aaff;
+	background-color: #0086b3;
 }
 .subnav>li>a, 
-.subnav>li.active>a,
-.subnav>li.active>a:hover {
-	color: #fff;
+.subnav>li.active>a
+ {
+	color: #f2f2f2;
+}
+.subnav>li.active>a:hover{
+	color: #005580;
 }
 
 p.nav-direction{
@@ -28239,13 +28242,16 @@ textarea.border-form-control {
 }
 
 #nettabs li.tabinfo.active a {
-	color: #fff;
-	background-color: #0af;
-}
+	color: #f2f2f2;
+	background-color:  #0086b3;
 
+}
+#copyrights{
+	padding: 15px;
+}
 .tab-header {
 	margin-top: 20px;
-	color: #069;
+	/*color: #069;*/
 }
 
 .red-tab-header {

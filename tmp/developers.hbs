@@ -113,7 +113,7 @@
                                 <p>Code Review / Security Audit:</p>
                                 <div class="inline">
                                     <a class="button button-smallfont button-dark blue button-black" href="https://github.com/ethereum/btcrelay/pull/10">Help Review the Code</a>
-                                    <span class="small" style="margin-left: 20px;">BTC Relay is part of the <a style="color: #aaa; text-decoration: underline;" href="https://blog.ethereum.org/2016/02/17/btc_relay_included_in_bounty_program/">Ethereum Bounty Program</a>.</span>
+                                    <span class="small" style="margin-left: 20px;">BTC Relay is part of the <a style="text-decoration: underline;" href="https://blog.ethereum.org/2016/02/17/btc_relay_included_in_bounty_program/"><b>Ethereum Bounty Program</b></a>.</span>
                                 </div>
                             </div>
                         </div>
@@ -122,9 +122,6 @@
 
                         <div class="tab-content">
                             <div class="tab-pane active" id="mainnet">
-
-                     
-
                                 <!-- MAIN NET -->
                                 <!-- mainnet navigation bar -->
                                                       <div class="container">
@@ -133,7 +130,7 @@
                                                             <li class="dropdown">
                                                               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Examples <span class="caret"></span></a>
                                                               <ul class="dropdown-menu">
-                                                                <li><a data-toggle="pill" href="#example1" >Example1</a></li>
+                                                                <li><a data-toggle="pill" href="#example1">Example1</a></li>
                                                                 <li role="separator" class="divider"></li>
                                                                 <li><a data-toggle="pill" href="#example2">Example2</a></li>
                                                                 <li role="separator" class="divider"></li>
@@ -173,7 +170,7 @@
                                 
                                 
                                 <br/>
-                                <h3 class="tab-header text-center">LIVE MAIN NET STATUS</h3>
+                                <h3 class="teb-header text-center">LIVE MAIN NET STATUS</h3> 
                                 <h4>Address: <strong id="relayAddr"></strong></h4>
                                 <h3><a href="./BitcoinRelayABI.js">ABI</a></h3>
                                 <h3><a href="https://github.com/ethereum/btcrelay#api">API</a></h3>
@@ -192,44 +189,45 @@
 
                             <div class="tab-pane" id="testnet">
 
-                    <!-- testnet navigation bar -->
-                      <div class="container">
-                          <ul class="nav nav-pills subnav">
-                            <li class="active"><a data-toggle="pill" href="#testnet-status">Status</a></li>
-                            <li class="dropdown">
-                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Examples <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                <li><a data-toggle="pill" href="#testnet-example1" >Example1</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a data-toggle="pill" href="#testnet-example2" >Example2</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a data-toggle="pill" href="#testnet-example3" >Example3</a></li>
-                            </ul>
-                        </li>
-                        <li><a data-toggle="pill" href="#testnet-help">Help</a></li>
-                        <li><a data-toggle="pill" href="#testnet-termsofuse">Terms of use</a></li>
-                    </ul>
-
-                    <div class="tab-content">
-                      <div class="tab-pane" id="testnet-status"> <p class="nav-direction" >develops->test net</p>
-                      </div>
-                      <div class="tab-pane" id="testnet-help"> 
-                        <p class="nav-direction">develops ->test net ->help </p>
-                      </div>
-                      <div class="tab-pane" id="testnet-termsofuse"><p class="nav-direction">develops ->test net ->terms of use </p></div>
-                      <div class="tab-pane" id="testnet-example1"> 
-                        <p class="nav-direction">develops ->production mainnet ->examples ->example1 </p>
-                      </div> 
-
-                      <div class="tab-pane" id="testnet-example2"> 
-                        <p class="nav-direction">develops ->production mainnet ->examples ->example2 </p>
-                      </div>                         
-                      <div class="tab-pane" id="testnet-example3"> 
-                        <p class="nav-direction">develops ->production mainnet ->examples ->example3 </p>
-                      </div>
-                    </div>
-                  </div>  <!-- nav end-->
                                 <!-- TEST NET -->
+                                                    <!-- testnet navigation bar -->
+                                                      <div class="container">
+                                                          <ul class="nav nav-pills subnav">
+                                                            <li class="active"><a data-toggle="pill" href="#testnet-status">Status</a></li>
+                                                            <li class="dropdown">
+                                                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Examples <span class="caret"></span></a>
+                                                              <ul class="dropdown-menu">
+                                                                <li><a data-toggle="pill" href="#testnet-example1" >Example1</a></li>
+                                                                <li role="separator" class="divider"></li>
+                                                                <li><a data-toggle="pill" href="#testnet-example2" >Example2</a></li>
+                                                                <li role="separator" class="divider"></li>
+                                                                <li><a data-toggle="pill" href="#testnet-example3" >Example3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a data-toggle="pill" href="#testnet-help">Help</a></li>
+                                                        <li><a data-toggle="pill" href="#testnet-termsofuse">Terms of use</a></li>
+                                                    </ul>
+                                
+                                                    <div class="tab-content">
+                                                      <div class="tab-pane" id="testnet-status"> <p class="nav-direction" >develops->test net</p>
+                                                      </div>
+                                                      <div class="tab-pane" id="testnet-help"> 
+                                                        <p class="nav-direction">develops ->test net ->help </p>
+                                                      </div>
+                                                      <div class="tab-pane" id="testnet-termsofuse"><p class="nav-direction">develops ->test net ->terms of use </p></div>
+                                                      <div class="tab-pane" id="testnet-example1"> 
+                                                        <p class="nav-direction">develops ->production mainnet ->examples ->example1 </p>
+                                                      </div> 
+                                
+                                                      <div class="tab-pane" id="testnet-example2"> 
+                                                        <p class="nav-direction">develops ->production mainnet ->examples ->example2 </p>
+                                                      </div>                         
+                                                      <div class="tab-pane" id="testnet-example3"> 
+                                                        <p class="nav-direction">develops ->production mainnet ->examples ->example3 </p>
+                                                      </div>
+                                                    </div>
+                                                  </div>  <!-- nav end-->
+                                
                                 <br/>
                                 <h3 class="red-tab-header text-center">LIVE TEST NET STATUS</h3>
                                 <h4>Address: <strong id="relayAddr"></strong></h4>
@@ -246,9 +244,9 @@
                                 </h3>
                                 <h3>ETH fee: <strong id="feeVTX"></strong></h3>
                                 <h5>Relayer: <strong id="feeRecipient"></strong></h5>
+
                             </div>
                         </div>
-
                         <hr />
                         <hr />
 
