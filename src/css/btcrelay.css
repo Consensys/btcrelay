@@ -197,7 +197,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 #content .notice {
 	background-color: #e6e6e6;
-	color: #444;
+	color: #333333;
 	border-radius: 3px;
 	padding: 15px 15px 15px 25px;
 	margin-bottom: 20px;
@@ -205,7 +205,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 #content .notice > h4 {
 	margin-bottom: 10px;
-	color: #444;      /* previous color #efefef */
+	color: #333333;      /* previous color #efefef */
 }
 
 #content .notice a {
@@ -246,29 +246,40 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 .nav-tabs>li.tabinfo a{
   background-color: #f2f2f2;
-  color: #0086b3;      /* #069 */
+  color: #069;      /* #069 */
 }
 .subnav{
    margin: -2px 0px 0 -15px;
-  background-color:#006080;   /*#005580*/
+  background-color:  #005780;   /*#005580 #006080 #005780*/
   border-radius: 4px;
 }
 .subnav>li.active{
-	background-color: #0086b3;
+	background-color:  #0079b7;
 }
+
+.subnav>li.active>a:hover {
+	color: #bfbfbf;
+}
+
+
+.subnav>li.active>a:focus, 
 .subnav>li>a, 
 .subnav>li.active>a
  {
 	color: #f2f2f2;
-}
-.subnav>li.active>a:hover{
-	color: #005580;
 }
 
 p.nav-direction{
 	color: #005580;
 	text-align: left;
 }
+
+/* mainnet status
+---------------------------------------------------------------------------- */
+#mainnetStatus>h4, #mainnetStatus>h5, #mainnetStatus>h3{
+ color: #333;
+}
+
 
 /* Headings
 ---------------------------------------------------------------------------- */
@@ -627,7 +638,7 @@ textarea.border-form-control {
 }
 .tab-header {
 	margin-top: 20px;
-	/*color: #069;*/
+	color: #069;
 }
 
 .red-tab-header {
